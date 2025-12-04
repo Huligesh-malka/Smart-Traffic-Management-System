@@ -1,0 +1,33 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.lanes-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.lane {
+  border: 2px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.low-traffic {
+  border-color: green;
+  background-color: #e6ffe6;
+}
+
+.alert {
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
